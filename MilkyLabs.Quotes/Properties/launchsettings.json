@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "MilkyLabs.Quotes (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "MilkyLabs.Quotes (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
