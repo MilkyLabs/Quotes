@@ -1,6 +1,6 @@
 ﻿using Microsoft.Windows.ApplicationModel.Resources;
 
-namespace MilkyLabs.Quotes.App.Helpers;
+namespace MilkyLabs.Quotes.Helpers;
 
 public static class ResourceExtensions
 {

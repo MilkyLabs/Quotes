@@ -1,7 +1,7 @@
 ﻿using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
 
-namespace MilkyLabs.Quotes.App.Contracts.Services;
+namespace MilkyLabs.Quotes.Contracts.Services;
 
 public interface INavigationService
 {

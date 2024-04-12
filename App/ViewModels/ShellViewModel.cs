@@ -1,10 +1,10 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
 using Microsoft.UI.Xaml.Navigation;
-using MilkyLabs.Quotes.App.Contracts.Services;
-using MilkyLabs.Quotes.App.Views;
+using MilkyLabs.Quotes.Contracts.Services;
+using MilkyLabs.Quotes.Views;
 
-namespace MilkyLabs.Quotes.App.ViewModels;
+namespace MilkyLabs.Quotes.ViewModels;
 
 public partial class ShellViewModel : ObservableRecipient
 {

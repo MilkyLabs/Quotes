@@ -12,7 +12,7 @@
 	<Nullable>enable</Nullable>
 	<UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
-    <RootNamespace>MilkyLabs.Quotes.App</RootNamespace>
+    <RootNamespace>MilkyLabs.Quotes</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -2,11 +2,11 @@
 
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
-using MilkyLabs.Quotes.App.Contracts.Services;
-using MilkyLabs.Quotes.App.Contracts.ViewModels;
-using MilkyLabs.Quotes.App.Helpers;
+using MilkyLabs.Quotes.Contracts.Services;
+using MilkyLabs.Quotes.Contracts.ViewModels;
+using MilkyLabs.Quotes.Helpers;
 
-namespace MilkyLabs.Quotes.App.Services;
+namespace MilkyLabs.Quotes.Services;
 
 // For more information on navigation between pages see
 // https://github.com/microsoft/TemplateStudio/blob/main/docs/WinUI/navigation.md

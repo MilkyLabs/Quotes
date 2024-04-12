@@ -1,11 +1,11 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
 using Microsoft.UI.Xaml.Controls;
-using MilkyLabs.Quotes.App.Contracts.Services;
-using MilkyLabs.Quotes.App.Helpers;
-using MilkyLabs.Quotes.App.ViewModels;
+using MilkyLabs.Quotes.Contracts.Services;
+using MilkyLabs.Quotes.Helpers;
+using MilkyLabs.Quotes.ViewModels;
 
-namespace MilkyLabs.Quotes.App.Services;
+namespace MilkyLabs.Quotes.Services;
 
 public class NavigationViewService : INavigationViewService
 {

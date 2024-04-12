@@ -1,8 +1,8 @@
 ﻿using Microsoft.UI.Xaml;
-using MilkyLabs.Quotes.App.Contracts.Services;
-using MilkyLabs.Quotes.App.ViewModels;
+using MilkyLabs.Quotes.Contracts.Services;
+using MilkyLabs.Quotes.ViewModels;
 
-namespace MilkyLabs.Quotes.App.Activation;
+namespace MilkyLabs.Quotes.Activation;
 
 public class DefaultActivationHandler : ActivationHandler<LaunchActivatedEventArgs>
 {
