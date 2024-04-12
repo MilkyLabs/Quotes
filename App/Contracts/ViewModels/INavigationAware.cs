@@ -1,4 +1,4 @@
-﻿namespace MilkyLabs.Quotes.App.Contracts.ViewModels;
+﻿namespace MilkyLabs.Quotes.Contracts.ViewModels;
 
 public interface INavigationAware
 {

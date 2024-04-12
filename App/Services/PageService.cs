@@ -1,11 +1,11 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
 using Microsoft.UI.Xaml.Controls;
-using MilkyLabs.Quotes.App.Contracts.Services;
-using MilkyLabs.Quotes.App.ViewModels;
-using MilkyLabs.Quotes.App.Views;
+using MilkyLabs.Quotes.Contracts.Services;
+using MilkyLabs.Quotes.ViewModels;
+using MilkyLabs.Quotes.Views;
 
-namespace MilkyLabs.Quotes.App.Services;
+namespace MilkyLabs.Quotes.Services;
 
 public class PageService : IPageService
 {

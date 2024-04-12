@@ -1,10 +1,10 @@
 ﻿using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using MilkyLabs.Quotes.App.Activation;
-using MilkyLabs.Quotes.App.Contracts.Services;
-using MilkyLabs.Quotes.App.Views;
+using MilkyLabs.Quotes.Activation;
+using MilkyLabs.Quotes.Contracts.Services;
+using MilkyLabs.Quotes.Views;
 
-namespace MilkyLabs.Quotes.App.Services;
+namespace MilkyLabs.Quotes.Services;
 
 public class ActivationService : IActivationService
 {

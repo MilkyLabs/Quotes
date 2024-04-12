@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace MilkyLabs.Quotes.App.ViewModels;
+namespace MilkyLabs.Quotes.ViewModels;
 
 public partial class MainViewModel : ObservableRecipient
 {

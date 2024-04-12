@@ -1,16 +1,16 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.UI.Xaml;
-using MilkyLabs.Quotes.App.Activation;
-using MilkyLabs.Quotes.App.Contracts.Services;
-using MilkyLabs.Quotes.App.Services;
-using MilkyLabs.Quotes.App.ViewModels;
-using MilkyLabs.Quotes.App.Views;
-using MilkyLabs.Quotes.App.Core.Contracts.Services;
-using MilkyLabs.Quotes.App.Core.Services;
-using MilkyLabs.Quotes.App.Helpers;
+using MilkyLabs.Quotes.Activation;
+using MilkyLabs.Quotes.Contracts.Services;
+using MilkyLabs.Quotes.Services;
+using MilkyLabs.Quotes.ViewModels;
+using MilkyLabs.Quotes.Views;
+using MilkyLabs.Quotes.Core.Contracts.Services;
+using MilkyLabs.Quotes.Core.Services;
+using MilkyLabs.Quotes.Helpers;
 
-namespace MilkyLabs.Quotes.App;
+namespace MilkyLabs.Quotes;
 
 // To learn more about WinUI 3, see https://docs.microsoft.com/windows/apps/winui/winui3/.
 public partial class App : Application

@@ -1,4 +1,4 @@
-﻿namespace MilkyLabs.Quotes.App.Activation;
+﻿namespace MilkyLabs.Quotes.Activation;
 
 public interface IActivationHandler
 {
