@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilkyLabs.Quotes", "MilkyLabs.Quotes\MilkyLabs.Quotes.csproj", "{8D7DD0E1-FD3C-43F5-A27B-5E20995A33DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{8D7DD0E1-FD3C-43F5-A27B-5E20995A33DC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilkyLabs.Quotes.Core", "MilkyLabs.Quotes.Core\MilkyLabs.Quotes.Core.csproj", "{D7E8CC92-7A4A-4232-9820-3788F9ECDF36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{D7E8CC92-7A4A-4232-9820-3788F9ECDF36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
