@@ -2,10 +2,11 @@ using System;
 
 namespace MilkyLabs.Quotes.Core.Models;
 
-public record class Quote(string Text, DateTime LastUpdated, DateTime Creation, string? Author = null, string? Source = null)
+public record Quote(string Id, string Text, DateTime LastUpdated, DateTime Creation, string? Author = null, string? Source = null)
 {
-    Quote SetText(string text) => this with { Text = text, LastUpdated = DateTime.Now }
+    Quote SetText(string text) => this with { Text = text, LastUpdated = DateTime.Now };
     Quote SetAuthor(string author) => this with { Author = author, LastUpdated = DateTime.Now };
     Quote SetSource(string source) => this with { Source = source, LastUpdated = DateTime.Now };
-    public static Quote Create(string Text) => new Quote(Text, DateTime.Now, DateTime.Now);
+    public static Quote Create(string text) => 
+        new Quote(Guid.NewGuid().ToString(), text, DateTime.Now, DateTime.Now);
 }
