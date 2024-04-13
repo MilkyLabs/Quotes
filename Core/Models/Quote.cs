@@ -4,17 +4,42 @@ namespace MilkyLabs.Quotes.Core.Models;
 
 public class Quote
 {
+    private string _text;
+    private string _author;
+    private string _source;
+
     public string Id { get; set; }
-    public string Text { get; set; }
+    public string Text
+    {
+        get => _text; 
+        set
+        {
+            _text = value;
+            LastUpdated = DateTime.Now;
+        }
+    }
     public DateTime LastUpdated { get; set; }
     public DateTime Creation { get; set; }
-    public string Author { get; set; }
-    public string Source { get; set; }
-    Quote SetText(string text) => this with { Text = text, LastUpdated = DateTime.Now };
-    Quote SetAuthor(string author) => this with { Author = author, LastUpdated = DateTime.Now };
-    Quote SetSource(string source) => this with { Source = source, LastUpdated = DateTime.Now };
+    public string Author
+    {
+        get => _author; 
+        set
+        {
+            _author = value;
+            LastUpdated = DateTime.Now;
+        }
+    }
+    public string Source
+    {
+        get => _source; 
+        set
+        {
+            _source = value;
+            LastUpdated = DateTime.Now;
+        }
+    }
     public static Quote Create(string text) => 
-        new Quote
+        new()
         {
             Id = Guid.NewGuid().ToString(), 
             Text= text,
