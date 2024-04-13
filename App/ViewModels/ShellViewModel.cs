@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-
+using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
+using Microsoft.Web.WebView2.Core;
 using MilkyLabs.Quotes.Contracts.Services;
 using MilkyLabs.Quotes.Views;
 
@@ -40,4 +41,12 @@ public partial class ShellViewModel : ObservableRecipient
             Selected = selectedItem;
         }
     }
+    public static FontIcon QuoteDefaultIcon => new FontIcon { Glyph = "&#xe7c3;" };
+    public IEnumerable<NavigationViewItem> MenuItems => new NavigationViewItem[]
+    {
+        new (){Content = "Quote 1", Icon = QuoteDefaultIcon},
+        new (){Content = "Quote 2", Icon = QuoteDefaultIcon},
+        new (){Content = "Quote 3", Icon = QuoteDefaultIcon},
+        new (){Content = "Very long quote with many letters in it", Icon = QuoteDefaultIcon},
+    };
 }

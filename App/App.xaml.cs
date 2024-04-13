@@ -61,8 +61,9 @@ public partial class App : Application
             services.AddSingleton<IPageService, PageService>();
             services.AddSingleton<INavigationService, NavigationService>();
 
-            // Core Services
-            services.AddSingleton<IFileService, FileService>();
+            
+            services.AddTransient<IFileDataManager, FileDataManager>();
+            services.AddTransient<IQuotesManager, QuotesManager>();
 
             // Views and ViewModels
             services.AddTransient<MainViewModel>();
