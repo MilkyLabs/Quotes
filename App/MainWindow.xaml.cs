@@ -1,7 +1,7 @@
 ﻿using Windows.UI.ViewManagement;
-using MilkyLabs.Quotes.App.Helpers;
+using MilkyLabs.Quotes.Helpers;
 
-namespace MilkyLabs.Quotes.App;
+namespace MilkyLabs.Quotes;
 
 public sealed partial class MainWindow : WindowEx
 {

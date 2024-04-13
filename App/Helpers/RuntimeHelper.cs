@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace MilkyLabs.Quotes.App.Helpers;
+namespace MilkyLabs.Quotes.Helpers;
 
 public class RuntimeHelper
 {

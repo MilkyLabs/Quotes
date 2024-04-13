@@ -3,11 +3,11 @@ using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Windows.System;
-using MilkyLabs.Quotes.App.Contracts.Services;
-using MilkyLabs.Quotes.App.Helpers;
-using MilkyLabs.Quotes.App.ViewModels;
+using MilkyLabs.Quotes.Contracts.Services;
+using MilkyLabs.Quotes.Helpers;
+using MilkyLabs.Quotes.ViewModels;
 
-namespace MilkyLabs.Quotes.App.Views;
+namespace MilkyLabs.Quotes.Views;
 
 // TODO: Update NavigationViewItem titles and icons in ShellPage.xaml.
 public sealed partial class ShellPage : Page

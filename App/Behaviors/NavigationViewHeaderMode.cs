@@ -1,4 +1,4 @@
-﻿namespace MilkyLabs.Quotes.App.Behaviors;
+﻿namespace MilkyLabs.Quotes.Behaviors;
 
 public enum NavigationViewHeaderMode
 {

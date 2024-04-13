@@ -2,9 +2,9 @@
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
 using Microsoft.Xaml.Interactivity;
-using MilkyLabs.Quotes.App.Contracts.Services;
+using MilkyLabs.Quotes.Contracts.Services;
 
-namespace MilkyLabs.Quotes.App.Behaviors;
+namespace MilkyLabs.Quotes.Behaviors;
 
 public class NavigationViewHeaderBehavior : Behavior<NavigationView>
 {

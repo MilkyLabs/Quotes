@@ -1,6 +1,6 @@
 ﻿using Microsoft.UI.Xaml.Controls;
 
-namespace MilkyLabs.Quotes.App.Helpers;
+namespace MilkyLabs.Quotes.Helpers;
 
 public static class FrameExtensions
 {
