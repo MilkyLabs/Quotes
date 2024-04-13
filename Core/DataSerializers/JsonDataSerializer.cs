@@ -8,6 +8,7 @@ public class JsonDataSerializer : IDataSerializer
     public async Task<string> Serialize<T>( T data)
     {
         var result = JsonConvert.SerializeObject(data);
+        return result;
     }
 
     public async Task<T> Deserialize<T>(string text)

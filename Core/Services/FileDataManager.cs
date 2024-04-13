@@ -8,7 +8,7 @@ public class FileDataManager : IFileDataManager
 {
     public async Task<T> ParseFile<T>(FileInfo file)
     {
-        var text = await File.ReadAllText(file.FullName);
+        var text = await File.ReadAllTextAsync(file.FullName);
         return await GetSerializer(file).Deserialize<T>(text);
     }
 
